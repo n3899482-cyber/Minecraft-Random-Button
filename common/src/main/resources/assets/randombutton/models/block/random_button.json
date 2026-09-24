@@ -1,0 +1,25 @@
+{
+  "textures": {
+    "red_top": "randombutton:block/random_button_top",
+    "metal": "minecraft:block/polished_deepslate",
+    "gold": "minecraft:block/gold_block",
+    "particle": "minecraft:block/polished_deepslate"
+  },
+  "elements": [
+    { "from": [1, 0, 1], "to": [15, 4, 15], "faces": {
+      "down": { "texture": "#metal" }, "up": { "texture": "#metal" },
+      "north": { "texture": "#metal" }, "south": { "texture": "#metal" },
+      "west": { "texture": "#metal" }, "east": { "texture": "#metal" }
+    }},
+    { "from": [2, 4, 2], "to": [14, 6, 14], "faces": {
+      "down": { "texture": "#gold" }, "up": { "texture": "#gold" },
+      "north": { "texture": "#gold" }, "south": { "texture": "#gold" },
+      "west": { "texture": "#gold" }, "east": { "texture": "#gold" }
+    }},
+    { "from": [4, 6, 4], "to": [12, 10, 12], "faces": {
+      "down": { "texture": "#metal" }, "up": { "texture": "#red_top" },
+      "north": { "texture": "#red_top" }, "south": { "texture": "#red_top" },
+      "west": { "texture": "#red_top" }, "east": { "texture": "#red_top" }
+    }}
+  ]
+}

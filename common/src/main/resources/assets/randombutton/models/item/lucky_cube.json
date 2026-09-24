@@ -1,0 +1,6 @@
+{
+  "parent": "randombutton:item/cube_base",
+  "textures": {
+    "face": "randombutton:item/lucky_cube"
+  }
+}

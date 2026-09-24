@@ -1,0 +1,17 @@
+﻿{
+  "block.randombutton.random_button": "Random Button",
+  "itemGroup.randombutton": "Minecraft Random Button",
+  "message.randombutton.welcome": "Welcome to Minecraft Random Button! Press the device in the center.",
+  "message.randombutton.event_triggered": "Random event triggered: %s",
+  "message.randombutton.event_in_progress": "Finish the current event first!",
+  "message.randombutton.homing_wind_complete": "The homing wind charge struck you!",
+  "event.randombutton.effect": "Effect"
+  ,"item.randombutton.recall_sigil": "Recall Sigil"
+  ,"item.randombutton.lucky_cube": "Lucky Cube"
+  ,"item.randombutton.unlucky_cube": "Unlucky Cube"
+  ,"message.randombutton.no_lobby": "The lobby could not be found."
+  ,"hud.randombutton.title": "Random Button"
+  ,"hud.randombutton.activations": "Activations: %s"
+  ,"hud.randombutton.lucky": "Lucky Cube: %s"
+  ,"hud.randombutton.unlucky": "Unlucky Cube: %s"
+}

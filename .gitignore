@@ -1,0 +1,63 @@
+.gradle
+**/build/
+**/run/
+*/runs/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
+.agents/
+.codex/
+.fleet/
+.run/
+.vscode/
+*.swp
+*.swo
+*~
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Mac OS ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Logs and local configuration ###
+*.log
+local.properties
+.env
+.env.*
+!.env.example
+crash-reports/
+logs/
+*.tmp
+*.bak
+*.orig
+*.rej
+/AGENTS.md
+/tools/

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "activated=false": { "model": "randombutton:block/random_button" },
+    "activated=true": { "model": "randombutton:block/random_button_pressed" }
+  }
+}

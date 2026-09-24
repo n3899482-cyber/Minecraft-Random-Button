@@ -1,0 +1,13 @@
+# Lucky and Unlucky Cube items
+
+Lucky Cube and Unlucky Cube are registered items in the mod's creative tab. Using either item consumes one cube (unless the player is in creative mode), adds five charges to its own counter, and makes that cube type active. Using another cube of the same type adds five more charges to the remaining amount: 4 + 5 = 9, then 9 + 5 = 14. A short item cooldown prevents accidental rapid use.
+
+The charge and activation counters are stored as persistent scoreboard tags on each player, copied on respawn, and synced to that player's HUD. They survive reconnects and remain independent in multiplayer. Lucky and Unlucky charges never combine. If both are present, the most recently used cube is active; the other balance is kept aside. When the active balance reaches zero, the button returns to its normal pool instead of automatically switching to the other cube. Using that other cube again activates it and adds five charges.
+
+Each successful random button activation, including `/randombutton random`, increments the player's HUD count and consumes one active charge. An attempted press blocked by cooldown or an active event consumes none. A named `/randombutton event` run does not choose from a random pool and consumes no charge. Lucky mode selects uniformly among `BENEFICIAL` events; Unlucky mode selects uniformly among `HARMFUL` events. `CHAOTIC` events remain available in the normal pool. The mixed positive/negative Effect event is classified as `CHAOTIC` for this purpose.
+
+On use, a vanilla ItemDisplay shows the existing cube model in front of the player. It rises, rotates, shrinks, then disappears with a small particle burst. The client HUD appears at the upper right and shows the player's random activation count plus any nonzero cube balances; an asterisk marks the active cube.
+
+Both items inherit the same vanilla item model in `assets/randombutton/models/item/cube_base.json`. It defines one compact 6 × 6 × 6 element with six textured faces, like a tabletop die rather than a full block. Each item model supplies its own 32 × 32 PNG face texture under `assets/randombutton/textures/item/`; all faces of a cube use the same face design. The textures can be edited directly in a pixel editor.
+
+The `display` section of `cube_base.json` controls inventory, ground, fixed, first person, and third person transforms. Edit those rotations, translations, and scales in the JSON or export replacements from Blockbench if a different hand position is desired. Both cubes share the transforms; use a separate item model if they need different positions later.

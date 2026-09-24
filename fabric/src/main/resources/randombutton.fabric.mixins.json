@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.nzoros.randombutton.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExplosionMixin",
+    "PlayerDropMixin",
+    "RecallInventoryMixin",
+    "RecallMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

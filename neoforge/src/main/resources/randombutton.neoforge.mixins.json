@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.nzoros.randombutton.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecallInventoryMixin",
+    "RecallMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

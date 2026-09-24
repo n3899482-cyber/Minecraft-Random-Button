@@ -1,0 +1,17 @@
+﻿{
+  "block.randombutton.random_button": "Випадкова кнопка",
+  "itemGroup.randombutton": "Minecraft Random Button",
+  "message.randombutton.welcome": "Ласкаво просимо до Minecraft Random Button! Натисніть пристрій у центрі.",
+  "message.randombutton.event_triggered": "Випадкову подію активовано: %s",
+  "message.randombutton.event_in_progress": "Спочатку завершіть поточну подію!",
+  "message.randombutton.homing_wind_complete": "Самонавідний вітряний заряд влучив у вас!",
+  "event.randombutton.effect": "Ефект"
+  ,"item.randombutton.recall_sigil": "Сигіл повернення"
+  ,"item.randombutton.lucky_cube": "Кубик удачі"
+  ,"item.randombutton.unlucky_cube": "Кубик невдачі"
+  ,"message.randombutton.no_lobby": "Лобі не знайдено."
+  ,"hud.randombutton.title": "Випадкова кнопка"
+  ,"hud.randombutton.activations": "Активацій: %s"
+  ,"hud.randombutton.lucky": "Кубик удачі: %s"
+  ,"hud.randombutton.unlucky": "Кубик невдачі: %s"
+}

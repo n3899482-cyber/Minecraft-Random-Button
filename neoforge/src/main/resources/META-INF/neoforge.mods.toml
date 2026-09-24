@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "${neo_loader_version_range}"
+
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+
+logoFile = "icon.png"
+description = '''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft_version}]"
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neoforge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+# Specify additional dependencies like this:
+#[[dependencies.${mod_id}]]
+#modId = "my_dependency_mod"
+#mandatory = true # if the dependency is optional or required
+#versionRange = "[min_version,max_version)" # maven version range of the dependency
+#side = "BOTH" # required on both client and server
+
+[[mixins]]
+config = "randombutton.neoforge.mixins.json"
